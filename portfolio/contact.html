@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>CONTACT</h2>
+    </div>
+    <div action="#">
+    <div class="contact-form">
+
+      <div class="contact item">
+        <p class="form-title">お名前<span class="must">必須</span></p>
+        <input type="text" name="username" size="70" />
+      </div>
+      <div class="contact item">
+        <p class="form-title">メールアドレス<span class="must">必須</span></p>
+        <input type="email" name="mail" size="70" />
+      </div>
+      <div class="contact item">
+        <p class="form-title">電話番号</p>
+        <input type="tel" name="tel" size="70" />
+      </div>
+
+      <div class="contact item">
+        <p class="form-title">お問い合わせ<span class="must">必須</span></p>
+        <textarea name="remarks" cols="69" rows="9" maxlength="600"></textarea>
+      </div>
+      <br />
+      <div class="btn-item">
+        <input class="btn" type="button" onclick="alert('send now!');return false;" value="送信">
+      </div>
+    </div>
+  </body>
+</html>
